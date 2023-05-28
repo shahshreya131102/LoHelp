@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Registration-form</title>
+</head>
+
+<body>
+  <!-- Registration form -->
+
+  <div class="header">
+    <div class="nav">
+      <div class="header-logo">
+        <img src="images/logo.png" alt="" class="logo-part">
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class=" container Register">
+    <div class="row">
+
+      <div class="col-6 images">
+        <div class="img-part">
+          <img src="images/reg-img.png" alt="img-reg" class="Regis-img">
+          <p class="link-login text-white  ">Are you already Registered ?? <a href="Login.html">Click here</a></p>
+        </div>
+      </div>
+
+      <div class="col-6">
+
+        <form action="" onsubmit="Validation()">
+          <!-- first name -->
+          <div class="mb-3">
+            <label class="form-label form-feild ">First name : </label>
+            <input type="text" class="form-control" id="Fname" placeholder="Enter your first name"
+              aria-describedby="emailHelp">
+          </div>
+
+          <!-- last name -->
+          <div class="mb-3">
+            <label class="form-label form-feild">Last name : </label>
+            <input type="text" class="form-control" id="Lname" placeholder="Enter your last name"
+              aria-describedby="emailHelp">
+          </div>
+
+          <!-- Contact number -->
+          <div class="mb-3">
+            <label class="form-label form-feild">Contact number : </label>
+            <input type="number" class="form-control" id="Number" placeholder="contact number" id="contactNumber"
+              aria-describedby="emailHelp">
+          </div>
+
+          <!-- email -->
+          <div class="mb-3">
+            <label class="form-label form-feild">Email : </label>
+            <input type="email" class="form-control" id="emailId" placeholder="Email" aria-describedby="emailHelp">
+          </div>
+
+          <!-- password -->
+          <div class="mb-3">
+            <label class="form-label form-feild">Password :</label>
+            <input type="text" class="form-control" id="passWord" placeholder="Enter your password"
+              aria-describedby="emailHelp">
+          </div>
+
+          <!-- button -->
+          <button type="submit" id="register" class="btn btn-primary Reg-btn mt-3">Register</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+  <script type="module" src="js/Reg.js"></script>
+</body>
+
+</html>

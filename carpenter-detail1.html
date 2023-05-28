@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <style>
+		body {
+			background-color: #4ef0ed;
+			font-family: Arial, sans-serif;
+			text-align: center;
+		}
+
+		h1 {
+			font-size: 36px;
+			color: #333333;
+		}
+
+		.profile-container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 50px;
+		}
+
+		.profile-photo {
+			width: 250px;
+			height: 250px;
+			border-radius: 50%;
+			overflow: hidden;
+			margin-bottom: 20px;
+		}
+
+		.profile-photo img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+
+		.profile-details {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			color: #666666;
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 50px;
+		}
+
+		.profile-details p {
+			margin: 10px 0;
+		}
+
+		.profile-details span {
+			font-weight: bold;
+			color: #333333;
+		}
+        a {
+            color: #fff;
+            background-color: #333;
+            border-radius: 5px;
+            display: inline-block;
+            font-size: 18px;
+            padding: 10px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        a:hover {
+            background-color: #555;
+            padding-top: 20px;
+        }
+	</style>
+</head>
+
+<body>
+	<h1>Carpenter Profile</h1>
+	<div class="profile-container">
+		<div class="profile-photo">
+			<img src="/images/carpenters/carpenter1.jpg" alt="Profile Photo">
+		</div>
+		<div class="profile-details">
+			<p><span>Name:</span> John Smith</p>
+			<p><span>Location:</span> Shyamal Cross Road Ahemdabad</p>
+			<p><span>Experience:</span> 10 years</p>
+			<p><span>Services:</span> Custom furniture, cabinetry, trim work</p>
+			<p><span>Availability:</span> Monday - Friday, 9am - 5pm</p>
+            <button> <a href="/carpenter-confirm.html"> Proceed to Book</a></button>
+		</div>
+	</div>
+</body>
+</html>
