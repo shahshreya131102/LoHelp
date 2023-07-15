@@ -1,0 +1,659 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Registration-page */
+body {
+    background-color: #57cfe2;
+}
+
+.img-part {
+    padding-top: 10%;
+}
+
+.form-feild {
+    font-size: 20px;
+}
+
+.Reg-btn {
+    margin-left: 85%;
+}
+
+.logo-part {
+    width: 120px;
+}
+
+.link-login {
+    padding-left: 15%;
+}
+
+
+/* login-page */
+.login-part {
+    background-color: #c4f2ff4d;
+    padding: 31px;
+    margin-top: 14%;
+    width: 38%;
+    margin-left: 32%;
+    border-radius: 11px;
+
+}
+
+.login {
+    border: 2px solid black;
+    color: white;
+    height: 50px;
+    width: 110px;
+    background-color: #2196F3;
+    padding: 11px 20px 11px 19px;
+}
+
+
+/* header-part */
+
+
+/*index*/
+
+
+/* Header styles */
+/* header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    padding-left: 143px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+} */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 75px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #111;
+  }
+  
+
+/* Hero section styles */
+.hero {
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+}
+
+.hero h1 {
+    font-size: 148px;
+    margin-top: 0;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.hero button {
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.hero button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Services section styles */
+.services {
+    padding: 50px;
+}
+
+.services h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.services ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.services li {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+    width: 30%;
+    padding: 25px;
+}
+
+.services img {
+    display: block;
+    height: 200px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.services h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.services p {
+    font-size: 18px;
+}
+
+.services a {
+    color: black;
+}
+
+.services a :hover {
+    color: blue;
+}
+
+/* Location Section */
+#back {
+    height: 30px;
+    width: 40px;
+    text-decoration: none;
+    color: black;
+  }
+  #loc-head{
+    text-align: center;
+     padding-bottom: 30px; 
+     font-size: 50px;
+  }
+
+/* About section styles */
+.about {
+    background-color: #f2f2f2;
+    padding: 50px;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-top: 0;
+    text-align: center;
+    padding-bottom: 22px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Contact section styles */
+.contact {
+    padding: 50px;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.contact label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact input,
+.contact textarea {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+}
+
+.contact button {
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.contact button:hover {
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Carpenters Page */
+.carpenters {
+    padding: 50px;
+    background-image: url("/images/carpenters/carpenterbg.png");
+}
+
+.carpenters h2 {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.carpenters ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.carpenters li {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+    width: 30%;
+    padding: 25px;
+}
+
+.carpenters img {
+    display: block;
+    height: 200px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.carpenters h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.carpenters p {
+    font-size: 18px;
+}
+
+.carpenters a {
+    color: black;
+}
+
+.carpenters a :hover {
+    color: blue;
+}
+
+.checked {
+    color: orange;
+}
+
+/* electricians page */
+.electricians {
+    padding: 50px;
+    background-color: #c1f7ff;
+}
+
+.electricians h2 {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.electricians ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.electricians li {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+    width: 30%;
+    padding: 25px;
+}
+
+.electricians img {
+    display: block;
+    height: 200px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.electricians h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.electricians p {
+    font-size: 18px;
+}
+
+.electricians a {
+    color: black;
+}
+
+.electricians a :hover {
+    color: blue;
+}
+
+.checked {
+    color: orange;
+}
+
+/* Tailors page */
+.tailors {
+    padding: 50px;
+    background-color: #ddffb7;
+}
+
+.tailors h2 {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.tailors ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tailors li {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+    width: 30%;
+    padding: 25px;
+}
+
+.tailors img {
+    display: block;
+    height: 200px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.tailors h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.tailors p {
+    font-size: 18px;
+}
+
+.tailors a {
+    color: black;
+}
+
+.tailors a :hover {
+    color: blue;
+}
+
+.checked {
+    color: orange;
+}
+
+/* beauticians page */
+.beauty {
+    padding: 50px;
+    background-color: #f5d0fe;
+}
+
+.beauty h2 {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.beauty ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.beauty li {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+    width: 30%;
+    padding: 25px;
+}
+
+.beauty img {
+    display: block;
+    height: 200px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.beauty h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.beauty p {
+    font-size: 18px;
+}
+
+.beauty a {
+    color: black;
+}
+
+.beauty a :hover {
+    color: blue;
+}
+
+.checked {
+    color: orange;
+}
+
+/* chef page */
+.chef {
+    padding: 50px;
+    background-color: #fee5fb;
+}
+
+.chef h2 {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.chef ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chef li {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+    width: 30%;
+    padding: 25px;
+}
+
+.chef img {
+    display: block;
+    height: 200px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.chef h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.chef p {
+    font-size: 18px;
+}
+
+.chef a {
+    color: black;
+}
+
+.chef a :hover {
+    color: blue;
+}
+
+.checked {
+    color: orange;
+}
+
+/* House Help page */
+.househelp {
+    padding: 50px;
+    background-color: #9dfa9a;
+}
+
+.househelp h2 {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.househelp ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.househelp li {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+    width: 30%;
+    padding: 25px;
+}
+
+.househelp img {
+    display: block;
+    height: 200px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.househelp h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.househelp p {
+    font-size: 18px;
+}
+
+.househelp a {
+    color: black;
+}
+
+.househelp a :hover {
+    color: blue;
+}
+
+.checked {
+    color: orange;
+}
+
+/* Buttons in each services */
+.buttons-two {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #0bcdfe;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: black;
+}
+/* Tool Tip Settings */
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  
